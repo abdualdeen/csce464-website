@@ -1,0 +1,26 @@
+.title {
+    font-size: 50px;
+}
+
+form {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+p {
+    font-weight: bold;
+}
+
+.paragraph2 {
+    font-style: italic;
+}
+
+.paragraph1 {
+    color: brown;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
