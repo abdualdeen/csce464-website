@@ -1,26 +1,33 @@
-.title {
-    font-size: 50px;
+body {
+  font-family: Arial, sans-serif;
 }
 
-form {
-    font-weight: bold;
-    color: aquamarine;
+nav {
+  background-color: #333;
+  font-size: 1.2rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p {
-    font-weight: bold;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
-.paragraph2 {
-    font-style: italic;
+li {
+  margin: 0 10px;
 }
 
-.paragraph1 {
-    color: brown;
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.flex-container {
-    display: flex;
-    padding: 10px;
-    margin-bottom: 10px;
+a:hover {
+  color: #ffc107;
 }
